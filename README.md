@@ -18,6 +18,5 @@ If you’re prepared to help out, please fork the repo and fill in any necessary
 
 Contact Information:
 
-Email: office@litespeed.me
+Email: chinthaka@cybergate.lk
 
-Telegram: @LiteSpeedDev
