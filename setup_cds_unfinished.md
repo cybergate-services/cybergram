@@ -75,18 +75,17 @@ Proceed to install SGX SDK:
 ```
 $ wget https://download.01.org/intel-sgx/dcap-1.2/linux/dcap_installers/ubuntuServer18.04/sgx_linux_x64_sdk_2.6.100.51363.bin
 
-$ chmod +x sgx_linux_x64_sdk_2.6.100.51285.bin
+$ chmod +x sgx_linux_x64_sdk_2.6.100.51363.bin
 
-$ sudo ./sgx_linux_x64_sdk_2.6.100.51285.bin
+$ sudo ./sgx_linux_x64_sdk_2.6.100.51363.bin
 ```
 Use the installation path as ```/usr/local/share```
 
 Activate SGX environment (I guess we don't need it):
 ```
 $ source /usr/local/share/sgxsdk/environment
-
-cp /usr/local/share/sgxsdk/environment /etc/profile.d/sgxsdk-env
-chmod +x /etc/profile.d/sgxsdk-env
+$ cp /usr/local/share/sgxsdk/environment /etc/profile.d/sgxsdk-env
+$ chmod +x /etc/profile.d/sgxsdk-env
 ```
 
 
@@ -96,7 +95,7 @@ $ sudo apt install libprotobuf10
 
 $ wget https://download.01.org/intel-sgx/dcap-1.2/linux/dcap_installers/ubuntuServer18.04/libsgx-enclave-common_2.6.100.51363-bionic1_amd64.deb
 
-$ sudo dpkg -i libsgx-enclave-common_2.6.100.51285-bionic1_amd64.deb
+$ sudo dpkg -i libsgx-enclave-common_2.6.100.51363-bionic1_amd64.deb
 ```
 
 
