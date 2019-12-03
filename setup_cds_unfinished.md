@@ -64,7 +64,7 @@ $ sudo apt install dkms
 
 Then installing Intel compiled ready-to-use SGX driver:
 ```
-$ wget https://download.01.org/intel-sgx/dcap-1.2/linux/dcap_installers/ubuntuServer18.04/https://download.01.org/intel-sgx/dcap-1.2/linux/dcap_installers/ubuntuServer18.04/sgx_linux_x64_driver_1.12_c110012.bin
+$ wget https://download.01.org/intel-sgx/dcap-1.2/linux/dcap_installers/ubuntuServer18.04/sgx_linux_x64_driver_1.12_c110012.bin
 $ chmod +x sgx_linux_x64_driver_1.12_c110012.bin
 
 $ sudo ./sgx_linux_x64_driver_1.12_c110012.bin
