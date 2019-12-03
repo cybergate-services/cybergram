@@ -79,11 +79,14 @@ $ chmod +x sgx_linux_x64_sdk_2.6.100.51285.bin
 
 $ sudo ./sgx_linux_x64_sdk_2.6.100.51285.bin
 ```
-
+Use the installation path as ```/usr/local/share```
 
 Activate SGX environment (I guess we don't need it):
 ```
-$ source ~/sgxsdk/environment
+$ source /usr/local/share/sgxsdk/environment
+
+cp /usr/local/share/sgxsdk/environment /etc/profile.d/sgxsdk-env
+chmod +x /etc/profile.d/sgxsdk-env
 ```
 
 
